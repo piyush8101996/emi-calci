@@ -1,0 +1,22 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: content-box;
+    
+    
+  }
+  
+  .tablerow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: start;
+    align-items: start;
+    border: 1px solid black;
+    width: auto;
+    padding: 10px;
+  }
+  .table{
+    margin: 0px 240px 30px;
+    border: 2px solid black;
+    box-sizing: content-box;
+  }
